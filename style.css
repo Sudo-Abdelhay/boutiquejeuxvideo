@@ -1,0 +1,70 @@
+/* GENERAL */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header,main,footer{
+    margin-left: 20% ;
+    margin-right: 20%;
+    margin-top: 3%;
+}
+
+body{
+    background-image: url("ressources/images/backgroung-image.png");
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-right: 10% !important;
+    margin-left: 10% !important;
+}
+
+/* HEADER */
+
+header img{
+    width: 15rem;
+    margin-left: -4rem;
+    margin-bottom: 1rem;
+}
+
+.dropdown-item{
+    background-color: #0d6efd !important;
+    color: white !important;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/*.dropdown-item:hover{*/
+/*    color: #0d6efd !important;*/
+/*    background-color: white !important;*/
+/*}*/
+
+.btn:hover{
+    color: #0d6efd !important;
+    background-color: white !important;
+}
+
+.card img {
+    height: 350px;
+    object-fit: fill;
+}
+
+.dropdown-menu.show{
+    background-color: #0d6efd !important;
+}
+
+/*.btn a{*/
+/*    color: white;*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*.btn a:hover{*/
+/*    color: #0d6efd;*/
+/*    background-color: white;*/
+/*    text-decoration: none;*/
+/*}*/
+
+.badge{
+    background-color: #0d6efd !important;
+}
