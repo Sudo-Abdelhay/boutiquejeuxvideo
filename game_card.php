@@ -12,7 +12,7 @@
                     echo number_format($data['prix']/100,2,',',' ' )?>€<?php ;
                 }
                 ?></p>
-            <a href="./detail_game.php?game_id=<?php echo $data['id'] ?>" class="btn btn-primary">Voir détail</a>
+            <a href="./detail_game.php?game_id=<?php echo $data['333'] ?>" class="btn btn-primary">Voir détail</a>
         </div>
     </div>
 
